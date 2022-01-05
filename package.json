@@ -1,0 +1,19 @@
+{
+  "name": "log4water",
+  "version": "0.1.1",
+  "description": "A logger for nodejs",
+  "main": "logger.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nightowl2007W/log4water.git"
+  },
+  "author": "WaterWolf5918",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nightowl2007W/log4water/issues"
+  },
+  "homepage": "https://github.com/Nightowl2007W/log4water#readme"
+}
