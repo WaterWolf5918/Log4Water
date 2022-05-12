@@ -1,6 +1,4 @@
 # log4water
 A logger for nodejs
 
-This is broken at the moment
-
-This is a **Dead Project**
+As of 5/11/2022 this project is back
