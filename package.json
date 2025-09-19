@@ -2,11 +2,11 @@
   "name": "log4water",
   "version": "0.0.1",
   "description": "A javascript / typescript logger built to be used for all my personal projects.",
-  "main": "dist/test.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "npm run compile && node dist/test.js",
     "compile": "tsc",
-    "build": "rollup --config"
+    "build": "npm run compile && rollup --config"
   },
   "repository": {
     "type": "git",
