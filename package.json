@@ -1,19 +1,25 @@
 {
   "name": "log4water",
-  "version": "0.1.1",
-  "description": "A logger for nodejs",
-  "main": "logger.js",
+  "version": "0.0.1",
+  "description": "A javascript / typescript logger built to be used for all my personal projects.",
+  "main": "dist/test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm run compile && node dist/test.js",
+    "compile": "tsc",
+    "build": "rollup --config"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Nightowl2007W/log4water.git"
+    "url": "git+https://github.com/WaterWolf5918/log4water.git"
   },
   "author": "WaterWolf5918",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Nightowl2007W/log4water/issues"
+    "url": "https://github.com/WaterWolf5918/log4water/issues"
   },
-  "homepage": "https://github.com/Nightowl2007W/log4water#readme"
+  "homepage": "https://github.com/WaterWolf5918/log4water#readme",
+  "dependencies": {
+    "rollup": "^4.51.0",
+    "typescript": "^5.9.2"
+  }
 }
